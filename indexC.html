@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro de URLs</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="cadastro">
+            <h1>Cadastro de URLs</h1>
+            <div class="input-group">
+                <input type="text" class="id" placeholder="Nome:">
+                <input type="url" class="categoria" placeholder="URL:">
+                <select class="confianca">
+                    <option value="Confiavel">Confiável</option>
+                    <option value="Não confiavel">Não confiável</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <button class="button1">Inserir</button>
+                <button class="button3">Excluir</button>
+                <button class="button4">Limpar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <h1>Lista de URLs</h1>
+        <table class="news-table">
+            <thead>
+                <tr>
+                    <th>Selecionar</th>
+                    <th>Nome</th>
+                    <th>URL</th>
+                    <th>Confiança</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+
+    <script src="scriptC.js"></script>
+</body>
+</html>
